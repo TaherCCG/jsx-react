@@ -1,4 +1,9 @@
-# Introduction to JSX
+# My 1st React App
+
+
+Following walk through tutorial *CI: React 101*
+
+## Introduction to JSX
 
 To use this repository:
 - Click the "Use this template" button in the upper right
