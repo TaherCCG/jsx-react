@@ -14,14 +14,13 @@ import './App.css';
 // import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 // import NestingComponents from "./components/NestingComponents";
 // import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
-import NavBarForm from './components/NavBarForm';
+// import NavBarForm from './components/NavBarForm';
+import RenderingLists from "./components/RenderingLists";
 
 function App() {
-  return (
-    <div>
-      <NavBarForm />
-    </div>
-  );
+  return <div className="App">
+      <RenderingLists />
+  </div>;
 }
 
 export default App;
