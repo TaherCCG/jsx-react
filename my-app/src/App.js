@@ -13,12 +13,15 @@ import './App.css';
 // import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 // import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 // import NestingComponents from "./components/NestingComponents";
-import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+// import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+import NavBarForm from './components/NavBarForm';
 
 function App() {
-  return <div className="App">
-      <MethodsAsPropsParent />
-  </div>;
+  return (
+    <div>
+      <NavBarForm />
+    </div>
+  );
 }
 
 export default App;
