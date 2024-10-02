@@ -5,22 +5,16 @@ import './App.css';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-import NavBarSimple from './components/NavbarSimple';
-import Sidebar from './components/Sidebar';
+// import NavBarSimple from './components/NavbarSimple';
+// import Sidebar from './components/Sidebar';
+// import EventsClass from "./components/EventsClass";
+// import EventsFunctional from "./components/EventsFunctional";
+import EventBinding from "./components/EventBinding";
 
 function App() {
-  return (
-    <div className="App">
-      <NavBarSimple/>
-      <Sidebar/>
-      {/* <FunctionalGreeting/>
-      <FunctionalGreetingWithProps greeting="Nice to meet you!" name="T" age="46" />
-      <StatefulGreeting greeting="Im Stateful class!" />
-      <StatefulGreetingWithCallback greeting="Im Stateful class With Callback!" />
-      <StatefulGreetingWithPrevState greeting="Im Stateful class With Previous State!" /> */}
-
-    </div>
-  );
+  return <div className="App">
+      <EventBinding />
+  </div>;
 }
 
 export default App;
